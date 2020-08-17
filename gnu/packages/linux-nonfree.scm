@@ -34,7 +34,7 @@
 (define (linux-nonfree-urls version)
   "Return a list of URLs for Linux-Nonfree VERSION."
   (list (string-append
-         "https://www.kernel.org/pub/linux/kernel/v4.x/"
+         "https://www.kernel.org/pub/linux/kernel/v5.x/"
          "linux-" version ".tar.xz")))
 
 (define-public linux-nonfree
